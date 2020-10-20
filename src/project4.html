@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elin Stenbäck</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/c4348bcdca.js" crossorigin="anonymous"></script>
+    <!-- Projekt — DT0173G, Webbutveckling, Mittuniversitetet. Av Elin Stenbäck 2020 -->
+</head>
+
+<body>
+
+    <!-- Container -->
+    <div class="container">
+
+
+        <!-- Header -->
+        <header class="header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">01</a></li>
+                    <li><a href="project2.html">02</a></li>
+                    <li><a href="project3.html">03</a></li>
+                    <li><a href="project4.html">04</a></li>
+                </ul>
+            </nav>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="mailto:elinstenback@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+            <div class="desktop-nav">
+                <ul>
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="mailto:elinstenback@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Disable scroll -->
+        <div class="disable-scroll">
+
+            <!-- Wrapper -->
+            <div class="wrapper">
+
+                <!-- Introduction -->
+                <section class="introduction">
+                    <h2>Timeless</h2>
+                    <p>Timeless is a school project where the assigment was to create a ecommerce site for a fictitious brand, and also take and edit pictures for the site. I created Timeless and it's built with HTML and CSS, the pictures are edited in Photoshop.
+                        Visit the site to see more.</p>
+                    <a id="hpfour" href="http://studenter.miun.se/~elst1904/dt163g/moment4/" target="_blank">To site</a>
+                    <h3>04</h3>
+                </section>
+
+                <!-- Projekt -->
+                <section class="project">
+                    <div class="carousel">
+
+
+                        <div class="carousel-track-container">
+                            <ul class="carousel-track">
+
+                                <!-- Slide 1 -->
+                                <li class="carousel-slide current-slide">
+                                    <img src="img/project4.png" alt="Picture of women">
+                                </li>
+
+                                <!-- Slide 2 -->
+                                <li id="cpfour" class="carousel-slide second-slide">
+                                    <h1>Created with</h1>
+                                    <h2>Language</h2>
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Photoshop</p>
+                                    <h2>Source Sans Pro</h2>
+                                    <p id="sourcesanspro">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll<br>Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Xx Yy Zz</p>
+                                    <h2>Palette</h2>
+                                    <div class="box1"></div>
+                                    <div class="box2"></div>
+                                    <div class="box3"></div>
+                                </li>
+
+                                <!-- Slide 3 -->
+                                <li class="carousel-slide third-slide">
+                                    <img src="img/project4desktop4.png" alt="Picture of website">
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="carousel-button is-hidden" id="carousel-button-left">
+                            <i class="fas fa-angle-left"></i>
+                        </button>
+                        <button class="carousel-button" id="carousel-button-right">
+                        <i class="fas fa-angle-right"></i>
+                    </button>
+
+                        <div class="carousel-nav">
+                            <button class="carousel-indicator current-slide"></button>
+                            <button class="carousel-indicator"></button>
+                            <button class="carousel-indicator"></button>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
