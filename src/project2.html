@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elin Stenbäck</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/c4348bcdca.js" crossorigin="anonymous"></script>
+    <!-- Projekt — DT0173G, Webbutveckling, Mittuniversitetet. Av Elin Stenbäck 2020 -->
+</head>
+
+<body>
+
+    <!-- Container -->
+    <div class="container">
+
+
+        <!-- Header -->
+        <header class="header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">01</a></li>
+                    <li><a href="project2.html">02</a></li>
+                    <li><a href="project3.html">03</a></li>
+                    <li><a href="project4.html">04</a></li>
+                </ul>
+            </nav>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="mailto:elinstenback@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+            <div class="desktop-nav">
+                <ul>
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="mailto:elinstenback@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Disable scroll -->
+        <div class="disable-scroll">
+
+            <!-- Wrapper -->
+            <div class="wrapper">
+
+                <!-- Introduction -->
+                <section class="introduction">
+                    <h2>Workout plan</h2>
+                    <p>Workout plan is a school project where the assigment was to buildt an application with a framework. The project was created with HTML, CSS, JavaScript and the framework Vue. The app allows you to register, edit and delete your workout
+                        exercises. Visit the site to test it out yourself!</p>
+                    <a id="hptwo" href="https://boiling-gorge-00042.herokuapp.com/" target="_blank">To site</a>
+                    <h3>02</h3>
+                </section>
+
+                <!-- Projekt -->
+                <section class="project">
+                    <div class="carousel">
+
+
+                        <div class="carousel-track-container">
+                            <ul class="carousel-track">
+
+                                <!-- Slide 1 -->
+                                <li class="carousel-slide current-slide">
+                                    <img src="img/project2.png" alt="Picture of women">
+                                </li>
+
+                                <!-- Slide 2 -->
+                                <li id="cptwo" class="carousel-slide second-slide">
+                                    <h1>Created with</h1>
+                                    <h2>Language</h2>
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>JavaScript</p>
+                                    <p>Node</p>
+                                    <p>Vue</p>
+                                    <h2>Open Sans</h2>
+                                    <p id="opensans">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll<br>Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Xx Yy Zz</p>
+                                    <h2>Palette</h2>
+                                    <div class="box1"></div>
+                                    <div class="box2"></div>
+                                    <div class="box3"></div>
+                                </li>
+
+                                <!-- Slide 3 -->
+                                <li class="carousel-slide third-slide">
+                                    <img src="img/project2desktop2.png" alt="Picture of website">
+                                    <a href="project3.html">Next project</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="carousel-button is-hidden" id="carousel-button-left">
+                            <i class="fas fa-angle-left"></i>
+                        </button>
+                        <button class="carousel-button" id="carousel-button-right">
+                        <i class="fas fa-angle-right"></i>
+                    </button>
+
+                        <div class="carousel-nav">
+                            <button class="carousel-indicator current-slide"></button>
+                            <button class="carousel-indicator"></button>
+                            <button class="carousel-indicator"></button>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
